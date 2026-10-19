@@ -1,6 +1,7 @@
 <h1>A general formalised framework for reasoning about display calculi</h1>
-This repo contains the Coq/Rocq files associated with the paper "A general formalised framework for reasoning about display calculi" by Rajeev Goré and Anthony Peigné.
+This repo contains the Coq/Rocq files associated with the paper <a href=https://doi.org/10.1007/s11225-026-10239-8>A general formalised framework for reasoning about display calculi</a> by Rajeev Goré and Anthony Peigné.
 This project formalises a framework for display calculus and cut-elimination that is applicable to many possible logics. It also formalises a proof of decidability of a display calculus for CPL within that framework.
+<a href=https://anthopeigne.github.io/A-general-formalised-framework-for-reasoning-about-display-calculi/toc.html>Browse the Coq formalisation here</a>.
 
 <h2>Building instructions</h2>
 The project requires Coq version 8.18.0 and may not compile on other versions. To obtain that version with <a href=https://opam.ocaml.org/doc/Install.html>opam</a>, simply run <code>opam pin coq 8.18.0</code>.
